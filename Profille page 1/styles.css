@@ -1,0 +1,118 @@
+:root {
+    --skyblue: #46acfa;
+    --text: white;
+    --darkblue: darkblue;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: URL(https://images.unsplash.com/photo-1512661416029-baaf2095de8e?q=80&w=2878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+style {}
+
+/* Header */
+
+#butterfly-img {
+    width: 60px;
+    object-fit: contain;
+}
+
+.butterfly {
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--skyblue) ;
+    padding: 10px ;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--text);
+    padding: 0 10px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+ .Portfolio {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 50px;
+    color: var(--text);
+}
+
+/* Email Section */
+
+h2 {
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 15px;
+}
+
+#contact-me {
+    margin-top: 150px ;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#submit { 
+    background-color: var(--darkblue);
+    color: var(--text);
+    font-family: 'Kaushan Script', cursive;
+    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--darkblue);
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* About Me */
+
+.icon {
+    color:var(--darkblue);
+    margin-right: 10px;
+}
+
+.iamdev {
+    font-weight: 700;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    color:var(--text);
+}
+
+
+h2 {
+    text-align: left;
+    padding-top: 30px;
+    color:var(--text);
+
+}
+.bio {
+    display: flex;
+    margin: 0px;
+    font-family: 'Kaushan Script', cursive;
+    color:var(--text);
+}
